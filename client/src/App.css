@@ -1,0 +1,302 @@
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.nav-item {
+    color: white;
+}
+
+.App {
+    background-color: #14177d;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.survey-header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.login {
+    text-align: center;
+    display: flex;
+    min-height: calc(100vh);
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-form {
+    text-align: center;
+    height: 100%;
+    margin-top: 5px;
+    background-color: white;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 100px;
+    padding: 35px;
+    border-color: black;
+    border-radius: 15px;
+    width: 320px;
+}
+
+.title-2 {
+    margin-left: 600px;
+    margin-top: 205px;
+    color: white;
+    font-size: 25px;
+}
+
+.login-form-custom {
+    text-align: center;
+    height: 100%;
+    margin-top: 5px;
+    background-color: white;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 170px;
+    padding: 35px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    margin-top: 10px;
+    background-color: #ff7733 !important;
+}
+
+    .btn-custom:hover {
+        background-color: #d14700 !important;
+    }
+
+.submitButton {
+    text-align: center;
+    top: 50%;
+    margin-bottom: 20px;
+}
+
+    .submitButton > button {
+        text-align: center;
+        top: 50%;
+    }
+
+.title {
+    width: 100%;
+    text-align: right;
+    font-size: 25px;
+    color: white;
+}
+
+.survey-title {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.dashboard {
+    text-align: center;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 33vh;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.dashButton {
+    height: 175px;
+    width: 175px;
+    margin: 10px;
+}
+
+.questionText {
+    color: black;
+}
+
+.modQuestion input {
+    height: 50px;
+    width: 1150px;
+    text-align: left;
+}
+
+.modQuestion {
+    font-size: calc(2px + 2vmin);
+    color: white;
+    text-align: left;
+    align-content: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.edit {
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.screen {
+    text-align: center;
+    height: 100%;
+    margin-top: 33vh;
+    color: white;
+}
+
+.survey {
+    top: 100%;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+.question {
+    text-align: left;
+}
+
+.table-striped {
+    height: 100%;
+}
+
+    .table-striped tr {
+        background-color: #bfbfbf;
+    }
+
+    .table-striped > tbody > tr:nth-child(even) > td {
+        background-color: #cccccc;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td {
+        background-color: #ffffff;
+    }
+
+.textbox {
+    height: 125px;
+    width: 600px;
+    text-align: left;
+}
+
+.spacer {
+    width: 100%;
+}
+
+.navbar-custom {
+    background-color: #d14700;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+    .navbar-custom a {
+        display: block;
+        padding: .5rem 1rem;
+    }
+
+        .navbar-custom a:hover {
+            color: white;
+        }
+
+.navbar {
+    height: 56px;
+}
+
+.navbar-nav a {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+    .navbar-nav a:hover {
+        background-color: #e69130;
+        color: black;
+    }
+
+.active-nav-item {
+    color: white;
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    background-color: #e69130;
+    color: white;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.active-codes {
+    background-color: white;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.active-codes-p {
+    font-size: 25px;
+}
+
+.codes {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.codes-head {
+    font-size: 35px;
+}
+
+.graph-tbl {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 1100px;
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.comments {
+    float: right;
+    margin-right:20px;
+    margin-top: 20px;
+    width: 20%;
+    background-color: white;
+    height: 100vh;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
